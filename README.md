@@ -15,10 +15,10 @@ git clone https://github.com/sudar/Arduino-Makefile
 mv Arduino-Makefile ~/work/github/Arduino-Makefile
 git clone https://github.com/shirriff/Arduino-IRremote
 mv Arduino-IRremote /usr/share/arduino/libraries/IRremote
-git clone https://github.com/jaypei/Arduino-PPT-Control
-mv Arduino-PPT-Control ~/work/Arduino-PPT-Control
+git clone https://github.com/jaypei/Arduino-PPT-Remote-Control
+mv Arduino-PPT-Remote-Control ~/work/Arduino-PPT-Remote-Control
 
-cd ~/work/Arduino-PPT-Control
+cd ~/work/Arduino-PPT-Remote-Control
 make
 sudo make upload
 ```
@@ -30,10 +30,10 @@ PC
 ```sh
 apt-get install python-serial
 apt-get install xdotool
-sudo ./ppt-ir-control.py
+sudo ./ppt-ir-remote-control.py
 ```
 
-可自行修改 `ppt-ir-control.py` 的头部变量.
+可自行修改 `ppt-ir-remote-control.py` 的头部变量.
 
 
 参考
