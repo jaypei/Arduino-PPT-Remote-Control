@@ -6,7 +6,7 @@ Arduino
 -------
 
 接线参照:
-[[http://www.fibidi.com/wp-content/uploads/2013/05/Arduino+IR-Receiver2.jpg]]
+![接线图](http://www.fibidi.com/wp-content/uploads/2013/05/Arduino+IR-Receiver2.jpg)
 
 
 上传 Arduino 程序:
